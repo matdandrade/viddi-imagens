@@ -26,16 +26,12 @@ pip install -r requirements.txt
 py -m playwright install chromium
 py -m app.main
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> 5c811166537e4ca5d8618dc4e7c1ffebe90a0e00
 ## Build Executable
 
 ```bash
 py -m PyInstaller --noconfirm --windowed --name "Viddi Imagens" --icon "assets/icon.ico" --add-data "assets;assets" --collect-all customtkinter --collect-all playwright app/main.py
 ```
-<<<<<<< HEAD
 
 ## Preview
 
@@ -45,5 +41,4 @@ py -m PyInstaller --noconfirm --windowed --name "Viddi Imagens" --icon "assets/i
 ## Author
 
 Matheus Andrade
-=======
->>>>>>> 5c811166537e4ca5d8618dc4e7c1ffebe90a0e00
+
