@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+build/
+dist/
+installer_output/
+*.spec
+
+data/raw_images/
+data/processed/
+data/temp/
+data/logs/
+
+*.log
+.env
